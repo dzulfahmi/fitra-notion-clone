@@ -5,8 +5,22 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Notion App",
-  description: "Notion built with Fitra",
+  title: "W Space",
+  description: "The connected workspace for you",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/vercel.svg",
+        href: "/vercel.svg"
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/vercel.svg",
+        href: "/vercel.svg"
+      },
+    ]
+  }
 };
 
 export default function RootLayout({
